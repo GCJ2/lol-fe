@@ -15,18 +15,43 @@ const Header = () => {
       <div className='popular-topics'>
         <span>Popular Topics:</span>
         <div className='popular-topics-links'>
-          <a href="#">#Counter-Strike</a>
-          <a href="#">#Intel Extreme Masters</a>
-          <a href="#">#ESL One</a>
-          <a href="#">#ESL Pro League</a>
-          <a href="#">#Dota 2</a>
+          <a href="https://www.eslgaming.com/category/counter-strike"
+          target='_blank'
+          rel='noopener noreferrer'>#Counter-Strike</a>
+          <a href="https://www.eslgaming.com/category/intel-extreme-masters"
+             target='_blank'
+             rel='noopener noreferrer'>#Intel Extreme Masters</a>
+          <a href="https://www.eslgaming.com/category/esl-one"
+             target='_blank'
+             rel='noopener noreferrer'>#ESL One</a>
+          <a href="https://www.eslgaming.com/category/esl-pro-league-0"
+             target='_blank'
+             rel='noopener noreferrer'>#ESL Pro League</a>
+          <a href="https://www.eslgaming.com/category/dota-2"
+             target='_blank'
+             rel='noopener noreferrer'>#Dota 2</a>
         </div>
         <div className='socials'>
-          <Icon.Facebook/>
-          <Icon.Twitter/>
-          <Icon.Instagram/>
-          <Icon.Twitch/>
-          <Icon.Music/>
+          <a href="https://www.facebook.com/ESL"
+             target='_blank'
+             rel='noopener noreferrer'>
+            <Icon.Facebook size={20}/>
+          </a>
+          <a href="https://twitter.com/ESL"
+             target='_blank'
+             rel='noopener noreferrer'>
+            <Icon.Twitter size={20}/>
+          </a>
+          <a href="https://www.instagram.com/eslgaming/"
+             target='_blank'
+             rel='noopener noreferrer'>
+            <Icon.Instagram size={20}/>
+          </a>
+          <a href="https://www.twitch.tv/team/esl/"
+             target='_blank'
+             rel='noopener noreferrer'>
+            <Icon.Twitch size={20}/>
+          </a>
         </div>
       </div>
     </div>
