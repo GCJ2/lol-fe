@@ -1,32 +1,42 @@
 .header {
-  box-shadow: 0 0 10px rgba(29,29,27,0.15);
+  box-shadow: 0 0 10px rgba(29, 29, 27, 0.15);
+
   .logo-container {
     background-image: url('https://www.eslgaming.com/sites/all/themes/stability/stability_sub/pattern-vs2-long.svg');
     background-repeat: no-repeat;
     background-position: top;
     border-bottom: 1px solid #2FC30E;
+
     .logo {
       width: 220px;
       padding: 0 15px 0 15px;
     }
   }
+
   .popular-topics {
     padding: 8px;
     margin: auto;
-    h4 {
-      margin: 5px 0;
+
+    span {
+      margin: 2px;
     }
+
     .popular-topics-links {
       display: flex;
       flex-wrap: wrap;
-
     }
+
     a {
       text-decoration: none;
       color: #2FC30E;
-      padding: 3px 8px;
-      font-size: 0.8rem;
+      padding: 0 8px;
+      font-size: 0.85rem;
     }
+  }
+
+  .socials {
+    display: flex;
+    justify-content: flex-end;
   }
 }
 

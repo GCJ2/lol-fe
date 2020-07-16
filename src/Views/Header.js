@@ -1,4 +1,5 @@
 import React from 'react';
+import * as Icon from 'react-feather'
 import BlackBar from "../Components/BlackBar/BlackBar";
 import './Header.scss'
 
@@ -14,11 +15,18 @@ const Header = () => {
       <div className='popular-topics'>
         <span>Popular Topics:</span>
         <div className='popular-topics-links'>
-          <a href="">#Counter-Strike</a>
-          <a href="">#Intel Extreme Masters</a>
-          <a href="">#ESL One</a>
-          <a href="">#ESL Pro League</a>
-          <a href="">#Dota 2</a>
+          <a href="#">#Counter-Strike</a>
+          <a href="#">#Intel Extreme Masters</a>
+          <a href="#">#ESL One</a>
+          <a href="#">#ESL Pro League</a>
+          <a href="#">#Dota 2</a>
+        </div>
+        <div className='socials'>
+          <Icon.Facebook/>
+          <Icon.Twitter/>
+          <Icon.Instagram/>
+          <Icon.Twitch/>
+          <Icon.Music/>
         </div>
       </div>
     </div>
